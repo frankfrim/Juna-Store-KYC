@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>E-coin chain</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/e-coinchainlogo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="quill/quill.snow.css" rel="stylesheet">
+  <link href="quill/quill.bubble.css" rel="stylesheet">
+  <link href="remixicon/remixicon.css" rel="stylesheet">
+  <link href="simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="Assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Juna Store KYC Portal
+  * Updated: May 30 2023 with Juna Store v5.3.0
+  * Template URL: https://falconappscompany.blogspot.com/
+  * Author: Falcon Apps Company
+  * License: https://falconappscompany.blogspot.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">Selling Portal</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div><!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <h6>Kevin Anderson</h6>
+              <span>Web Designer</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-gear"></i>
+                <span>Account Settings</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-menu-button-wide"></i><span>Components</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+         
+          <li>
+            <a href="components-accordion.html">
+              <i class="bi bi-circle"></i><span>Product List</span>
+            </a>
+          </li>
+         
+          <li>
+            <a href="components-breadcrumbs.html">
+              <i class="bi bi-circle"></i><span>Cloths</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="components-cards.html">
+              <i class="bi bi-circle"></i><span>Digital and others</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-carousel.html">
+              <i class="bi bi-circle"></i><span>Household and Accessories</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-list-group.html">
+              <i class="bi bi-circle"></i><span>Webpages and others</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-modal.html">
+              <i class="bi bi-circle"></i><span>Businesses</span>
+            </a>
+          </li>
+          <li>
+            <a href="components-tabs.html">
+              <i class="bi bi-circle"></i><span>Medicines</span>
+            </a>
+          </li>
+         
+        </ul>
+      </li><!-- End Components Nav -->
+
+     
+
+      <li class="nav-item">
+        <a class="nav-link " data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>Tables</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
+        
+          <li>
+            <a href="tables-data.html" class="active">
+              <i class="bi bi-circle"></i><span>Search site</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Tables Nav -->
+
+      
+
+      
+
+      <li class="nav-heading">Pages</li>
+
+      
+
+     
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-contact.html">
+          <i class="bi bi-envelope"></i>
+          <span>Contact</span>
+        </a>
+      </li><!-- End Contact Page Nav -->
+
+     
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Search This Site</h1>
+      <nav> 
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item">Tables</li>
+          <li class="breadcrumb-item active">Search Here</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+      <div class="row">
+        <div class="col-lg-12">
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Search</h5>
+              <p>Search affiliate for links <a href="https://github.com/fiduswriter/Simple-DataTables" target="_blank">Simple DataTables</a> library. Just add <code>.datatable</code> class name to any table you wish to conver to a datatable</p>
+
+              <!-- Table with stripped rows -->
+              <table class="table datatable">
+                <thead>
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Section</th>
+                    <th scope="col">Cost Per Click</th>
+                    <th scope="col">Links</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Businesses </td>
+                    <td>Website</td>
+                    <td>0.03</td>
+                    <td>            <!-- Basic Modal -->
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Open
+                      </button>
+                      <div class="modal fade" id="basicModal" tabindex="-1">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Open Section</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                             Visit this site to have access to the account. Copy and follow the available support o how it work.
+                             <button type="button" class="btn btn-primary"><a href="components-modal.html" style="color: white;">Visit Site</a></button>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div><!-- End Basic Modal--></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Affiliate Marketing </td>
+                    <td>Website</td>
+                    <td>0.07</td>
+                    <td>            <!-- Basic Modal -->
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Open
+                      </button>
+                      <div class="modal fade" id="basicModal" tabindex="-1">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Open Section</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                             Visit this site to have access to the account. Copy and follow the available support o how it work.
+                             <button type="button" class="btn btn-primary"><a href="components-modal.html" style="color: white;">Visit Site</a></button>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div><!-- End Basic Modal--></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Juna Store </td>
+                    <td>Marketing App</td>
+                    <td>1.02</td>
+                    <td>          
+                        <!-- Disabled Backdrop Modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#disablebackdrop">
+                Open
+              </button>
+              <div class="modal fade" id="disablebackdrop" tabindex="-1" data-bs-backdrop="false">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Open Section</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <input type="text" value="https://sallejuna.blogspot.com/" id="myInput">
+                      <button onclick="myFunction()">Copy</button><script>
+                      function myFunction() {
+                        // Get the text field
+                        var copyText = document.getElementById("myInput");  // Select the text field
+                        copyText.select();
+                        copyText.setSelectionRange(0, 99999); // For mobile devices
+                      
+                        // Copy the text inside the text field
+                      navigator.clipboard.writeText(copyText.value);
+                       
+                        // Alert the copied text
+                        alert("Copied the text: " + copyText.value);
+                      }
+                      </script>
+                      <p style="text-align: center; color: #777;">Or</p>
+                      Visit this site to have access to the account. Copy and follow the available support o how it work.
+                      <button type="button" class="btn btn-primary"><a href="components-list-group.html" style="color: white;">Visit Site</a></button>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End Disabled Backdrop Modal-->
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Food and Health </td>
+                    <td>Nutrition</td>
+                    <td>0.52</td>
+                    <td>          
+                      <a href="components-list-group.html">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                          Visit Site
+                        </button>
+                     </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Medicines </td>
+                    <td>Health care</td>
+                    <td>620.02</td>
+                    <td>            <a href="components-tabs.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">6</th>
+                    <td>Moniters</td>
+                    <td>Digital</td>
+                    <td>0.02</td>
+                    <td>           <a href="components-list-group.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7</th>
+                    <td>Phones and Accessories </td>
+                    <td>Phones</td>
+                    <td>0.04</td>
+                    <td>            <a href="components-cards.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8</th>
+                    <td>Medicines </td>
+                    <td>Health care</td>
+                    <td>620.02</td>
+                    <td>            <a href="components-tabs.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>Fabric</td>
+                    <td>Cloth</td>
+                    <td>0.09</td>
+                    <td>         <!-- Modal Dialog Scrollable -->
+                      <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/features.jpg");'></div>
+               
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDialogScrollable">
+                        Get Link
+                      </button>
+                      <div class="modal fade" id="modalDialogScrollable" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Copy Link</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <input type="text" value="https://sallejuna.blogspot.com/2023/06/cloth.html" id="myInput">
+                              <button type="button" class="btn btn-primary" data-bs-toggle="modal" onclick="myFunction()">
+                                Copy</button><script>
+                              function myFunction() {
+                                // Get the text field
+                                var copyText = document.getElementById("myInput");  // Select the text field
+                                copyText.select();
+                                copyText.setSelectionRange(0, 99999); // For mobile devices
+                              
+                                // Copy the text inside the text field
+                              navigator.clipboard.writeText(copyText.value);
+                               
+                                // Alert the copied text
+                                alert("Copied the text: " + copyText.value);
+                              }
+                              </script>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div><!-- End Modal Dialog Scrollable--></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>Medicines </td>
+                    <td>Health care</td>
+                    <td>620.02</td>
+                    <td>           <a href="components-tabs.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>Desktop Accessories</td>
+                    <td>Digital</td>
+                    <td>0.12</td>
+                    <td>           <a href="components-list-group.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>Medicines </td>
+                    <td>Health care</td>
+                    <td>620.02</td>
+                    <td>           <a href="components-tabs.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>Medicines </td>
+                    <td>Health care</td>
+                    <td>620.02</td>
+                    <td>            <a href="components-tabs.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">14</th>
+                    <td>Juna Affiliate</td>
+                    <td>Marketing</td>
+                    <td>1.02</td>
+                    <td>           <a href="components-list-group.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">15</th>
+                    <td>Video games</td>
+                    <td>Games</td>
+                    <td>0.03</td>
+                    <td>            <a href="components-list-group.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">16</th>
+                    <td>Quiz</td>
+                    <td>Quiz</td>
+                    <td>0.05</td>
+                    <td>            <a href="components-list-group.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">17</th>
+                    <td>Job</td>
+                    <td>Website</td>
+                    <td>0.2</td>
+                    <td>            <a href="components-list-group.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">18</th>
+                    <td>E-Books</td>
+                    <td>Learning Site</td>
+                    <td>0.12</td>
+                    <td>            <a href="components-list-group.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">19</th>
+                    <td>Challenge </td>
+                    <td>Quiz</td>
+                    <td>0.02</td>
+                    <td>           <a href="components-list-group.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">20</th>
+                    <td>Food</td>
+                    <td>Website</td>
+                    <td>0.26</td>
+                    <td>                 
+                        <!-- Modal Dialog Scrollable -->
+              <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/features.jpg");'></div>
+       
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalDialogScrollable">
+                Get Link
+              </button>
+              <div class="modal fade" id="modalDialogScrollable" tabindex="-1">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Copy Link</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <input type="text" value="https://sallejuna.blogspot.com/2023/06/food.html" id="myInput">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" onclick="myFunction()">
+                        Copy</button><script>
+                      function myFunction() {
+                        // Get the text field
+                        var copyText = document.getElementById("myInput");  // Select the text field
+                        copyText.select();
+                        copyText.setSelectionRange(0, 99999); // For mobile devices
+                      
+                        // Copy the text inside the text field
+                      navigator.clipboard.writeText(copyText.value);
+                       
+                        // Alert the copied text
+                        alert("Copied the text: " + copyText.value);
+                      }
+                      </script>   </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End Modal Dialog Scrollable-->
+
+                       
+        
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">21</th>
+                    <td>Trading</td>
+                    <td>Affiliate</td>
+                    <td>0.09</td>
+                    <td>            <!-- Basic Modal -->
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Get Code
+                      </button>
+                      <div class="modal fade" id="basicModal" tabindex="-1">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Copy Codes</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img  width="470" height="84%" src="assets/img/login2.gif" alt="">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div><!-- End Basic Modal--></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">22</th>
+                    <td>Cloth</td>
+                    <td>Dresses</td>
+                    <td>0.30</td>
+                    <td> <a href="components-breadcrumbs.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">23</th>
+                    <td>Electronics</td>
+                    <td>Computers</td>
+                    <td>0.09</td>
+                    <td>  <!-- Basic Modal -->
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Get Code
+                      </button>
+                      <div class="modal fade" id="basicModal" tabindex="-1">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Copy Codes</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img  width="470" height="84%" src="assets/img/login2.gif" alt="">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div><!-- End Basic Modal--></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">24</th>
+                    <td>Computers</td>
+                    <td>Digital</td>
+                    <td>0.098</td>
+                    <td>   <a href="components-cards.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">25</th>
+                    <td>Shoes</td>
+                    <td>Marketing</td>
+                    <td>0.02</td>
+                    <td>   <a href="components-breadcrumbs.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">26</th>
+                    <td>Health</td>
+                    <td>Health care</td>
+                    <td>0.076</td>
+                    <td>     <!-- Basic Modal -->
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Get Code
+                      </button>
+                      <div class="modal fade" id="basicModal" tabindex="-1">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Copy Codes</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img  width="470" height="84%" src="assets/img/login2.gif" alt="">
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div><!-- End Basic Modal-->
+        
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">27</th>
+                    <td>Earpins and cover</td>
+                    <td>Accesories</td>
+                    <td>0.09</td>
+                    <td>   <a href="components-list-group.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">28</th>
+                    <td>Ear Phone</td>
+                    <td>Phones</td>
+                    <td>0.08</td>
+                    <td>   <a href="components-list-group.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">29</th>
+                    <td>Aircode</td>
+                    <td>Health care</td>
+                    <td>0.02</td>
+                    <td> <a href="components-list-group.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">30</th>
+                    <td>Earpins</td>
+                    <td>Accesories</td>
+                    <td>0.02</td>
+                    <td>   <a href="components-list-group.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">31</th>
+                    <td>Power Bank</td>
+                    <td>Bank</td>
+                    <td>0.02</td>
+                    <td> <a href="components-list-group.html">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                        Visit Site
+                      </button></td>
+                  </tr>
+                  <th scope="row">32</th>
+                  <td>Cover</td>
+                  <td>Assesories</td>
+                  <td>0.04</td>
+                  <td>  <a href="components-list-group.html">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                      Visit Site
+                    </button></td>
+                </tr>
+                <th scope="row">33</th>
+                <td>Sumsung Phones</td>
+                <td>Phones</td>
+                <td>0.99</td>
+                <td>   <a href="components-cards.html">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                    Visit Site
+                  </button></td>
+              </tr>
+              <th scope="row">34</th>
+              <td>Wood</td>
+              <td>Furniture</td>
+              <td>0.42</td>
+              <td>  <!-- Basic Modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                  Get Code
+                </button>
+                <div class="modal fade" id="basicModal" tabindex="-1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Copy Codes</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <img  width="470" height="84%" src="assets/img/login2.gif" alt="">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- End Basic Modal--></td>
+            </tr>
+            <th scope="row">35</th>
+            <td>Food</td>
+            <td>Nutrition</td>
+            <td>29.32</td>
+            <td>    <!-- Basic Modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+                Get Code
+              </button>
+              <div class="modal fade" id="basicModal" tabindex="-1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Copy Codes</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <img  width="470" height="84%" src="assets/img/login2.gif" alt="">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End Basic Modal-->
+</td>
+          </tr>
+          <th scope="row">36</th>
+          <td>Recipe</td>
+          <td>Food</td>
+          <td>86.42</td>
+          <td>  <!-- Basic Modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+              Get Code
+            </button>
+            <div class="modal fade" id="basicModal" tabindex="-1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Copy Codes</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img  width="470" height="84%" src="assets/img/login2.gif" alt="">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Basic Modal-->
+</td>
+        </tr>
+        <th scope="row">37</th>
+        <td>Recipe Fruits</td>
+        <td>Food</td>
+        <td>86.02</td>
+        <td>       <!-- Basic Modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#basicModal">
+            Get Code
+          </button>
+          <div class="modal fade" id="basicModal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Copy Codes</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img  width="470" height="84%" src="assets/img/login2.gif" alt="">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Basic Modal--></td>
+      </tr>
+     
+                </tbody>
+              </table>
+              <!-- End Table with stripped rows -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer" class="footer">
+  <div class="copyright">
+    &copy; Copyright <strong><span>Juna Selling Portal</span></strong>. All Rights Reserved
+  </div>
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://falconappscompany.blogspot.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://falconappscompany.blogspot.com/nice-admin-juna-html-template/ -->
+    Designed by <a href="https://falconappscompany.blogspot.com/">Falcon Apps Company</a>
+  </div>
+</footer><!-- End Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="apexcharts/apexcharts.min.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="chart.js/chart.umd.js"></script>
+<script src="echarts/echarts.min.js"></script>
+<script src="quill/quill.min.js"></script>
+<script src="simple-datatables/simple-datatables.js"></script>
+<script src="tinymce/tinymce.min.js"></script>
+<script src="php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
